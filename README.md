@@ -1,6 +1,6 @@
 # Magrittr.jl
 
-It's Lazy.jl but only the pipe macro `@>`, `@>>` and `@as`.
+It's Lazy.jl but only the pipe macro `@>`, `@>>` and `@as`, so no `groupby` to polute the namespace with, so you can use DataFrames.jl and not get head scratching errors.
 
 ```julia
 Pkg.add("Magrittr")
